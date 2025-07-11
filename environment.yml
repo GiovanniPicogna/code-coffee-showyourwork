@@ -1,6 +1,9 @@
+channels:
+  - conda-forge
+  - defaults
 dependencies:
-  - conda-forge::numpy=1.21
-  - conda-forge::pip=25.1.1
-  - conda-forge::python=3.10
+  - numpy=1.21
+  - pip=25.1.1
+  - python=3.10
   - pip:
       - matplotlib==3.10
